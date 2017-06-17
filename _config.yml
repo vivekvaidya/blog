@@ -1,0 +1,32 @@
+# Permalinks
+permalink:           pretty
+
+# Setup
+title:               Vivek Vaidya
+tagline:             // experiments
+url:                 https://vivekvaidya.me/blog
+paginate:            1
+baseurl:             ""
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Vivek Vaidya
+  url:               https://twitter.com/thevivekvaidya
+  email:             vivekvaidya@outlook.com
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/vivekvaidya/
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
