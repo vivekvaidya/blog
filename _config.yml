@@ -4,7 +4,7 @@ permalink:           pretty
 # Setup
 title:               Vivek Vaidya
 tagline:             // experiments
-url:                 https://vivekvaidya.me/blog
+url:                 https://vivekvaidya.me/blog/
 paginate:            5
 baseurl:             ""
 

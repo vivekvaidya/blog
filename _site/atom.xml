@@ -4,13 +4,37 @@
  <title>Vivek Vaidya</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2017-06-17T13:45:37-05:00</updated>
+ <updated>2017-12-30T11:41:58+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Vivek Vaidya</name>
    <email>vivekvaidya@outlook.com</email>
  </author>
 
+ 
+ <entry>
+   <title>College</title>
+   <link href="http://localhost:4000/2017/12/30/college/"/>
+   <updated>2017-12-30T00:00:00+05:30</updated>
+   <id>http://localhost:4000/2017/12/30/college</id>
+   <content type="html">&lt;p&gt;&lt;em&gt;This post has been in the pipeline for unacceptably long - to the point where freshman year is done and dusted - and I’ve since moved on to bigger, better things. A new goal, then, is to share some key insights from the collective college experience.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;4:38am, Feb 04 2016.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Welcome</title>
+   <link href="http://localhost:4000/2017/06/23/welcome/"/>
+   <updated>2017-06-23T00:00:00+05:30</updated>
+   <id>http://localhost:4000/2017/06/23/welcome</id>
+   <content type="html">&lt;p&gt;Hello! Thanks for visiting my blog. I’ve always wanted to share some of my thoughts with the world, and I figured starting a blog would accomplish that. This, just like most other things in life, is an &lt;strong&gt;experiment&lt;/strong&gt; - and there will be mistakes - but I will persist through. The intention here is to learn and grow, yes, but to also have a positive impact on &lt;strong&gt;you&lt;/strong&gt;, the reader.&lt;/p&gt;
+
+&lt;p&gt;Feel free to bookmark this page (&lt;a href=&quot;https://vivekvaidya.me/blog&quot;&gt;https://vivekvaidya.me/blog&lt;/a&gt;) and visit when you like. I intend on getting started with an article about freshman year of college, also my first year away from home - and the lessons that I’ve learned thus far.&lt;/p&gt;
+
+&lt;p&gt;Thank you!&lt;/p&gt;
+</content>
+ </entry>
  
 
 </feed>
