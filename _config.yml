@@ -5,7 +5,7 @@ permalink:           pretty
 title:               Vivek Vaidya
 tagline:             // experiments
 url:                 https://vivekvaidya.me/blog
-paginate:            1
+paginate:            5
 baseurl:             ""
 
 # Assets
