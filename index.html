@@ -3,18 +3,33 @@ layout: default
 title: Home
 ---
 
+<div class="bio-section">
+  <h1>About Me</h1>
+  <p>Hi, I'm Vivek Vaidya. I'm a Technical Program Manager at Facebook.</p>
+  <p>I created this blog to share my thoughts and experiences with the world. Here you'll find articles about my journey through college, my professional experiences, and insights I've gained along the way.</p>
+
+  <div id="intro-icons">
+    <a id="github" href="https://github.com/vivekvaidya"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+    <a id="linkedin" href="https://www.linkedin.com/in/v1v3k"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+    <a id="resume" href="Resume.pdf"><i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i></a>
+    <a id="twitter" href="https://twitter.com/thevivekvaidya"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+<h2>Latest Posts</h2>
 <div class="posts">
   {% for post in paginator.posts %}
   <article class="post">
-    <h1 class="post-title">
+    <h3 class="post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">
         {{ post.title }}
       </a>
-    </h1>
+    </h3>
 
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-    {{ post.content }}
+    {{ post.excerpt }}
+    <p><a href="{{ site.baseurl }}{{ post.url }}">Read more...</a></p>
   </article>
   {% endfor %}
 </div>

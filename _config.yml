@@ -3,14 +3,12 @@ permalink:           pretty
 
 # Setup
 title:               Vivek Vaidya
-tagline:             // experiments
+tagline:             Thoughts and Experiences
 url:                 https://vivekvaidya.me
 paginate:            5
-baseurl:             /blog/
+baseurl:             ""
 
 # Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
 sass:
   sass_dir:          _sass
   style:            :compressed
@@ -25,6 +23,11 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/vivekvaidya/
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
 
 # Gems
 gems:
